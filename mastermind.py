@@ -26,13 +26,10 @@ UR4 = 0
 win = False
 guess = ""
 
-winArray = [ " - ", " - ", " - ", " - "]
+winArray = [" - ", " - ", " - ", " - "]
 for x in range(4):
     print(winArray[x], end=" "),
 
-#print(CR1, CR2, CR3, CR4)
-
-#print("computer code: " + CR1, CR2, CR3, CR4)
 
 noUR1zero = False
 noUR1one = False
